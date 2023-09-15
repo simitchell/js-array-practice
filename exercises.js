@@ -9,6 +9,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Put your answer below -------------------------
 
+
+
+    function myFunc(string, integer) {
+        let array = [];
+        while (integer > 0) {
+            array.push(string);
+            integer--;
+            // console.log(integer);
+        }
+        return array;
+        // let array = [string.repeat(integer)];
+        // console.log(array);
+    };
+
+    const result = (myFunc("Doberman", 3));
+    console.log(result);
+
+    // console.log(myFunc("German Shepherd", 9));
     // -----------------------------------------------
 
     // ---------------------
@@ -18,6 +36,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Put your answer below -------------------------
 
+    const myArray = [5, 4, 3, 2, 1];
+
+    const revArray = [...myArray].reverse();
+
+    const davidArray = myArray.slice().reverse();
+
+    const maryArray = [];
+
+    myArray.forEach((e) => maryArray.unshift(e))    // pushes the last value of array to the front
+
+    console.log(myArray);
+    
+    // console.log(revArray);
+    
+    // console.log(davidArray);
+
+    console.log(maryArray);
+
     // -----------------------------------------------
 
     // ---------------------
@@ -25,6 +61,19 @@ document.addEventListener('DOMContentLoaded', function () {
     // ---------------------
 
     // Put your answer below -------------------------
+
+    // const array = [true, false, false, true];
+
+    // function deleteFalseValues(array) {
+    //     for (let i = 0; i < array.length; i++) {
+    //         if (!array[i]) {
+    //             array.splice(i, 1);
+    //         }
+    //     }
+    // }
+
+    // deleteFalseValues(array);
+    // console.log(array);
 
     // -----------------------------------------------
 
@@ -35,6 +84,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // ---------------------
 
     // Put your answer below -------------------------
+
+    // const myArray = [['name', 'Charlie'], ['color', 'brown'], ['age', 10]];
+
+    
 
     // -----------------------------------------------
 
